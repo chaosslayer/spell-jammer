@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #991C74;
+    --cor2: #E6D05A;
+    --cor3: #E612A7;
+    --cor4: #1AE4E6; 
+    --cor5: #419D9E;
+}
+.pai{
+    position: relative;
+    width: 100vw;
+}
+.imai{
+    position: absolute;
+    width: 100%;
+
+}
+.degra{
+    position: absolute;
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.975), rgba(0, 0, 0, 0.899), rgba(0, 0, 0, 0.888),rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.505), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100%;
+    height: 50vw;
+}
+.titulo{
+    color: white;
+    font-size: 4vw;
+    width: 60vw;
+}
